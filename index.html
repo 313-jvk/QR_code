@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style-guide.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <style>
+    body { 
+    background-color: rgb(215, 215, 215);  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+
+header {  
+    padding: 10px; 
+    background-color: rgb(255, 245, 213); 
+    margin: 15px auto; 
+    color: rgb(3, 0, 54);; 
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: 0 10px 20px rgba(7, 7, 7, 0.18); 
+    width: 550px;  
+    height: 150px; 
+    font-size: larger;
+} 
+
+
+#container { 
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.482);
+} 
+
+img { 
+    width: 500px; 
+    height: 430px;  
+    margin: 5px auto; 
+    border-radius: 10px; 
+    padding: 10px; 
+} 
+
+.attribution { 
+    width: 600px;   
+    border-top: 3px solid rgb(255, 140, 0); 
+    height: 85px;  
+    margin: 0 auto; 
+    background-color: rgb(3, 0, 54);  
+    padding: 10px auto;  
+    border-radius: 10px;  
+    font-style: italic; 
+    font-size: 0.8em; 
+    font-weight: lighter; 
+    text-align: center; 
+} 
+
+
+h3 {
+    color: rgb(255, 128, 0); 
+}
+
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: underline; 
+} 
+
+a:hover {
+    text-decoration: none; 
+    color: blanchedalmond; 
+    font-size: larger;
+} 
+
+@media screen and (max-width: 600px) {
+  #container {
+    width: 90%;           /* occupe presque toute la largeur */
+    padding: 15px;         /* réduire le padding */
+    font-size: 14px;       /* réduire un peu la taille du texte */
+  } 
+  img {
+    width: 100%;
+  }
+}
+
+  </style>
+  <title>Frontend Mentor | QR code component</title> 
+</head>
+<body>
+<section id="container"> 
+<section>
+  <header><h1>Improve your front-end skills by building projects</h1> 
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </header> 
+</section> 
+<section>
+  <img src="images/image-qr-code.png" alt="QR code"> 
+</section> 
+
+  <div class="attribution">
+    <h3>Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></h3>
+   <h3>Coded by<a href="#">Melissa</a></h3> 
+  </div>
+</section>
+</body>
+</html>
